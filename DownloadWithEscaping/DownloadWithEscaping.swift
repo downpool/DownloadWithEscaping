@@ -23,7 +23,7 @@ class DownloadWithEscapingViewModel: ObservableObject {
         guard let url = URL(string: "") else { return }
         
         URLSession.shared.dataTask(with: url) { data, response, error in
-            
+             
         }
     }
 }
