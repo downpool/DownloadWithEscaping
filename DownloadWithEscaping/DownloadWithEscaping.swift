@@ -23,7 +23,7 @@ class DownloadWithEscapingViewModel: ObservableObject {
     
     init() {
         getPost()
-    } 
+    }
     
     func getPost() {
         guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts/1") else { return }
